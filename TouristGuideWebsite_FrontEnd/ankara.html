@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ankara Destinations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+ <style>
+    /* CSS Kodları buraya gelecek */
+
+    body {
+        font-family: 'Poppins',sans-serif;
+            background:
+    url(img/bg2.jpg)
+    center / cover no-repeat fixed;
+    }
+    h1 {
+      margin: 0;
+    }
+    nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+    main {
+      padding: 20px;
+      margin-top: 80px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #fffbfb;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      width: 300px; /* Resimlerin genişliğini ayarlayın */
+      height: 200px; /* Resimlerin yüksekliğini ayarlayın */
+      object-fit: cover; /* Resimlerin orantılı olarak sığmasını sağlar */
+    }
+
+    p {
+      line-height: 1.5;
+    }
+    a:link {
+    color: green;    
+    text-decoration: none;
+}
+
+.button {
+      display: inline-block;
+      background-color: rgba(255,255,255,0.13);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+.button:hover {
+      background-color: #dfdfdf;
+      color: black;
+    }
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    height: 3950px;
+    width: 900px;
+    background-color: rgba(255,255,255,0.13);
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 252%;
+    left: 45%;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(255, 0, 0, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    }
+
+.head-container{
+        background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+             color: #ffffff;
+         margin: 100px;
+            padding: 20px;
+            text-align: center;
+          height: 145px;
+    width: 900px;
+    background-color: rgba(255,255,255,0.13);
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 1%;
+    left: 45%; 
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(233, 48, 48, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    }
+
+.details-button {
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;  width: 100%;
+    background-color: #000000;
+    color: #ededee;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+.details-button:hover {
+    background-color: #a8a8a8;
+    color: #000000;
+        }
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+ </style>
+</head>
+<body>
+ 
+    <div class="head-container">
+   
+    <nav>
+        <ul>
+          <li><a class="button" href="search.html">Home</a></li>
+          <li><a class="button" href="places.html">Places</a></li>
+          <li><a class="button" href="profile.html">Profile</a></li>
+          <li><a class="button" href="help.html">Help</a></li>
+        </ul>
+      </nav>
+      <br>
+
+      <h1>Ankara Destinations</h1>
+      <h3><a href="https://weather.com/tr-TR/weather/tenday/l/Ankara+Ankara?canonicalCityId=4661d3b651b790261b56f460ed677bde63b92a88100b36f79f56e046932783e8">Weather </a></h3>
+  </div>
+  
+<div class="container">
+  <main>
+    <section>
+      
+        <h2>1. Anıtkabir</h2>
+      <img src="img/antıkabir.jpg" alt="Anıtkabir">
+      <p>Anıtkabir is the mausolea of the founder of Türkiye, Mustafa Kemal Atatürk. There you can find historical aspects of the city, as well as the Turkish War of Independence and the legacy of Atatürk.
+        Anıtkabir is a complex located in the Çankaya district of Ankara, which includes the mausoleum of Mustafa Kemal Atatürk. Designed by Emin Onat and Orhan Arda, the construction of Anıtkabir began in 1944 and was completed in 1953. In addition to the mausoleum building, the complex consists of various structures and monuments, as well as a wooded area known as the Peace Park.</p>
+      <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>  
+      <button class="details-button">Add to Favorites</button>
+     
+</section>
+
+    <section>
+      <h2>2. Ethnography Museum</h2>
+      <img src="img/etnografya.png" alt="Etnografya Museum">
+      <p>The unique examples of Turkish Art from the Seljuk Period until Present are exhibited in the Ethnography Museum, which has been served since 1930.
+
+        In the Collection of the Museum those can be seen; Folk clothes, ornaments, shoes, clogs compiled from various regions of Anatolia, women's and men's socks of Sivas region, various pouches, embroideries, needlework, waistbands, towels, bundles, bed covers, bridal clothes, groom shaving sets, carpets from various regions and rugs, a wide variety of artefacts representing Anatolian metalwork, Ottoman Period bows, arrows, flintlock pistols, rifles, swords and scimitars, Turkish tile porcelains and Kütahya porcelains, Sufi and cult objects, and beautiful examples of Turkish writing.
+        In the museum, there is a specialized library containing publications related to Anatolian ethnography and folklore and art history.
+        The body of Mustafa Kemal Atatürk kept here until his transfer to Anıtkabir (Mausoleum of Atatürk) in 1953. This part is still preserved in the form of a symbolic area, in honour of Atatürk's memory.
+    </p>
+      
+      <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <button class="details-button">Add to Favorites</button>
+    </section>
+
+    <section>
+      <h2>3. Hacı Bayram Mosque</h2>
+      <img src="img/haci-bayram-camii.jpg" alt="Hacı Bayram Camii">
+      <p>Hacı Bayram Mosque, also known as Hacı Bayram Veli Mosque is a mosque in Altındağ district of Ankara. The name of Hacı Bayram Mosque is derived from Turkish poet and Sufi, Hacı Bayram Veli. Today, it is one of the most popular destinations to visit in Ankara.
+
+        Hacı Bayram Mosque is a typical example of both 17th century and 18th-century mosque architectural styles. The mosque is next to the Augustus Temple from the east side, and the Hacı Bayram Veli Tomb takes place on the south side of the Hacı Bayram Mosque. 
+        
+        Hacı Bayram Mosque is classified in “historical mosques on Turkey,” and it was taken to the tentative UNESCO World Heritage list in 2016. It has an impressive look both outside and inside. If you ever find yourself in Ankara, visiting Hacı Bayram Mosque is highly recommended. </p>
+      <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <button class="details-button">Add to Favorites</button>
+     
+    </section>
+
+    <section>
+        <h2>4. Atatürk Forest Farm and Zoo</h2>
+        <img src="img/aoc.jpg" alt="Atatürk Orman Çiftliği">
+        <p>Atatürk Forest Farm is a farm that was built by Gazi Mustafa Kemal Atatürk on a piece of land purchased from different people in 1925 in Yenimahalle, above Ankara, and farms for Turkish agriculture.
+            The farm, which was donated to the Treasury by Atatürk in 1937, operates as a legal entity affiliated to the Ministry of Agriculture and Forestry today. It was registered as a first degree historical and natural protected area in 1992.
+            Within the farm land, which is the biggest green area of ​​Ankara, there are visitor areas such as the largest zoo in the village, a similar house in Thessaloniki where Atatürk was born, the historical Black Sea Pool and the State Cemetery.</p>
+        <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        <button class="details-button">Add to Favorites</button>  
+        
+    </section>
+  
+      <section>
+        <h2>5. Ankara Castle</h2>
+        <img src="img/ankaraKalesi.jpg" alt="Ankara Kalesi">
+        <p>The imposing citadel of Ankara is perched on a hill high above the city. It takes its visitors on a fascinating journey into history. Many peoples such as the Hittites, the Romans and the Galatians have left their mark.
+            Today, the citadel is a historical attraction in the old town and delights its visitors with the magnificent view from the observation towers in the fortification wall. Inside the building there are numerous carpet sellers and antique dealers. The former horse market now sells aromatic smelling spices. The gate to the outer castle is marked by a clock tower. The inner castle can be reached through an angular gate. There is a link between the upper and lower walls called the Sark Kale. Visitors can climb it to overlook the whole city. 
+            The inner wall consists of 42 towers, it ends with the Ak Kale, the White Castle. 
+        </p>
+        <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        <button class="details-button">Add to Favorites</button> 
+       
+    </section>
+  
+      <section>
+        <h2>6. Ankara State Art and Sculpture Museum</h2>
+        <img src="img/resimvheykel.jpg" alt="Atatürk Ormanı">
+        <p>The museum building, in 1976, four valuable paintings from the Ministry of National Education -Osman Hamdi Bey's "Arms Dealer", V. Vereshchagin's "At Timur's Grave", Zonaro's "Young Girl Portrait", Emel Cimcoz (Korutürk )'s “Turkish Child's Gratitude to Atatürk”-; These works were recorded as the first pieces of the museum collection.
+
+            The collection provides the opportunity to witness the changing understanding of art and major historical processes in Turkey from the end of the 19th century to the present day in the field of visual arts.
+            
+            The collection, which consists of painting, sculpture, ceramics, original prints, Turkish ornament art and photography, is one of the most important archives of Turkey's history of visual arts for more than a century; The works that won awards in the State Painting and Sculpture Exhibitions were created from the works brought into the inventory through transfers, purchases and donations from public institutions and organizations.</p>
+        <div class="rate">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        <button class="details-button">Add to Favorites</button>
+    </section>
+    
+</main>
+</div>
+
+</body>
+</html>

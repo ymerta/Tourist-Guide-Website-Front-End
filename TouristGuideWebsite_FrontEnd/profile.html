@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+   <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background:
+    url(img/bg2.jpg)
+    center / cover no-repeat fixed;
+        }
+
+    form-head{
+    color: #fcfcfc;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+   }
+
+    nav {
+      margin-top: 20px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    h1 {
+            margin-bottom: 10px;
+        }
+
+    h3 {
+            margin-top: 5px;
+        }
+
+
+.head-container{
+  
+  background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        
+     margin: 100px;
+        padding: 20px;
+        text-align: center;
+      height: 166px;
+       
+width: 900px;
+background-color: rgba(255,255,255,0.13);
+position: absolute;
+transform: translate(-50%,-50%);
+top: 5%;
+left: 45%; 
+border-radius: 10px;
+backdrop-filter: blur(10px);
+border: 2px solid rgba(233, 48, 48, 0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+}
+
+    .container {
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            
+         margin: 100px;
+            padding: 20px;
+            text-align: center;
+
+           height: 1115px;
+    width: 900px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 45%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    
+
+        }
+    .user-info {
+            margin: 20px;
+            text-align: center;
+        }
+
+       
+
+    .favorite-place-img {
+            max-width: 300px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 200px; 
+             object-fit: cover;
+             margin-bottom: 10px;
+        }
+
+    .favorite-place-card {
+            display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 0 10px 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    border-radius: 5px;       
+}
+
+    .favorite-place-card:hover {
+        transform: scale(1.05);
+        }
+
+    .favorite-place-card p {
+    height: 80px; /* Açıklama metninin yüksekliği */
+    overflow: hidden; /* Metnin sığması için fazla kısmını kes */
+    text-overflow: ellipsis; /* Metni sonunda ... ile göster */
+    white-space: wrap; /* Satır sonlarından kesme yapma */
+}
+
+    .remove-button,.view-description-button  {
+            margin-top: 10px;
+            
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+   
+    width: 100%;
+    background-color: #000000;
+    color: #ededee;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+        }
+
+    .remove-button:hover,.view-description-button:hover {
+            background-color: #a8a8a8;
+            color: #000000;
+        }
+
+    .button {
+      display: inline-block;
+      background-color: rgba(255,255,255,0.13);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+      background-color: #dfdfdf;
+      color: black;
+    }
+
+
+    
+
+   </style>
+</head>
+<body>
+ 
+    <div class="head-container">
+        <form-head>
+         <h1>Profile</h1>
+         <h4>John Doe</h4>
+       
+        <nav>
+          <ul>
+            <li><a class="button" href="search.html">Home</a></li>
+            <li><a class="button" href="places.html">Places</a></li>
+            <li><a class="button" href="#">Profile</a></li>
+            <li><a class="button" href="help.html">Help</a></li>
+          </ul>
+        </nav>
+    </form-head> 
+     </div>
+     
+    
+    <div class="user-info">
+        
+           <div class="container"> 
+            <h3>Favorit Destinations:</h3>
+             
+            <div class="favorite-place-card">
+              <form action="ankara.html">
+                <img src="img/antıkabir.jpg" alt="Plaj" class="favorite-place-img">
+                <h4>Anıtkabir</h4>
+                <p>Anıtkabir is the mausolea of the founder of Türkiye, Mustafa Kemal Atatürk. There you can find historical aspects of the city, as well as the Turkish War of Independence and the legacy of Atatürk.
+                    Anıtkabir is a complex located in the Çankaya district of Ankara, which includes the mausoleum of Mustafa Kemal Atatürk. Designed by Emin Onat and Orhan Arda, the construction of Anıtkabir began in 1944 and was completed in 1953. In addition to the mausoleum building, the complex consists of various structures and monuments, as well as a wooded area known as the Peace Park.</p>
+                    <button class="view-description-button">See More</button>
+                    <button class="remove-button">Remove from Favorites</button>
+                </form>
+                </div>
+            
+            <div class="favorite-place-card">
+                    <img src="img/sumela.jpg" alt="Şehir Merkezi" class="favorite-place-img">
+                    <h4>Sumela Monastery</h4>
+                    <p>Nestled in a steep cliff of Karadag Mountain in the remote mountainous region of Macka in Trabzon, Sumela Monastery is probably one of the most epic monasteries to ever been built in the world.
+    
+                        With such an incredible feat, the Greek Orthodox monks of the yesteryears had managed to build an architectural wonder that defies nature in almost every imaginable way... for the most part until the 20th Century where it was abandoned and left in a state of disrepair for most of the century and it was further damaged by falling rocks which closed the place down since 2015.
+                        
+                        After several years of restoration, Sumela Monastery is finally opening its doors to tourists and within this guide, you will find all the information you need to visit one of the most scenic monasteries in Turkey.</p>
+                   <button class="view-description-button">See More</button>  
+                   <button class="remove-button">Remove from Favorites</button>
+            </div>
+            <div class="favorite-place-card">
+                <img src="img/ist.jpg" alt="Dağlar" class="favorite-place-img">
+                <h4>The Maiden's Tower</h4>
+                <p>The Maiden's Tower (Turkish: Kız Kulesi), also known as Leander's Tower (Tower of Leandros) since the medieval Byzantine period, is a tower lying on a small islet located at the southern entrance of the Bosphorus strait 200 m (220 yd) from the coast of Üsküdar in Istanbul, Turkey.The interior of the tower has been transformed into a popular café and restaurant, with an excellent view of the former Roman, Byzantine and Ottoman capital. Private boats make trips to the tower several times a day.
+                </p>
+                  <button class="view-description-button">See More</button>
+                  <button class="remove-button">Remove from Favorites</button>
+              
+            </div>
+            <div class="favorite-place-card">
+                <img src="img/antep.jpg" alt="Şehir Merkezi" class="favorite-place-img">
+                <h4>Zeugma Ancient City</h4>
+                <p>Zeugma Ancient City is located 10 kilometers away from the Nizip district of Gaziantep. The distance to Gaziantep city center is approximately 50 kilometers. If you come to Gaziantep just to see the ancient city,we also advise you not to leave from Gaziantep before you see other historical places and try local foods.The city, which was founded in the shallowest region of the Euphrates River, received customs tax for passage from those who wanted to go to the city of apameia across the river. At the end of the excavations carried out today, 100.000 stamps called ‘bulla’ were obtained in the region. It is possible to visit these seals at the Gaziantep Archeology Museum.</p>
+                <button class="view-description-button">See More</button>
+                <button class="remove-button">Remove from Favorites</button>
+                
+            </div>
+            
+    </div>
+   </div> 
+ </body>
+</html>
